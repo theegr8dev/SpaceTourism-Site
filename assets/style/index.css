@@ -21,6 +21,7 @@
 /************** Utitlities Classes *************/
 a {
   text-decoration: none;
+  color: #fff;
 }
 li {
   list-style-type: none;
@@ -52,13 +53,21 @@ nav {
   height: 48px;
 }
 
+.active {
+  border-bottom: 2px solid #fff;
+}
+
 .nav-list {
   background: rgba(255, 255, 255, 0.04);
   backdrop-filter: blur(81.5485px);
-  padding: 30px 0px;
-  padding-left: 120px;
-  padding-right: 150px;
+  padding: 0 100px;
 }
+
+.nav-item {
+  padding: 30px;
+  /* height: 48px; */
+}
+
 .nav-list .nav-item:not(:first-child) {
   padding-inline-start: 40px;
 }
@@ -79,11 +88,11 @@ main {
 main section {
   width: 1150px;
   margin: 0 auto;
- justify-content: space-between;
+  justify-content: space-between;
 }
 .main-content {
-    width: 500px;
-    font-weight: 400;
+  width: 500px;
+  font-weight: 400;
 }
 .main-content h2 {
   font-family: var(--barlow-condensed);
@@ -93,33 +102,33 @@ main section {
   letter-spacing: 4.72px;
 }
 .main-content h1 {
-    font-family: var(--barlow);
-    color: var(--secondary-white);
-    font-weight: 400;
-    font-size: 150px;
+  font-family: var(--barlow);
+  color: var(--secondary-white);
+  font-weight: 400;
+  font-size: 150px;
 }
 .main-content p {
-    font-family: var(--barlow);
-    color: var(--primary-sky-blue);
- 
-    font-size: 1.2rem;
-    line-height: 32px;
+  font-family: var(--barlow);
+  color: var(--primary-sky-blue);
+
+  font-size: 1.2rem;
+  line-height: 32px;
 }
 
-.main-explore{
-    border: 1px solid wheat;
-    width: 274px;
-    height: 274px;
-    border-radius: 500px;
-    justify-content: center;
-    background-color: var(--secondary-white);
+.main-explore {
+  border: 1px solid wheat;
+  width: 274px;
+  height: 274px;
+  border-radius: 500px;
+  justify-content: center;
+  background-color: var(--secondary-white);
 }
-.main-explore a{
-font-family: var(--bellefair);
-font-weight: 400;
-font-size: 32px;
-letter-spacing: 2px;
-color: #0B0D17;
-text-transform: uppercase;
+.main-explore a {
+  font-family: var(--bellefair);
+  font-weight: 400;
+  font-size: 32px;
+  letter-spacing: 2px;
+  color: #0b0d17;
+  text-transform: uppercase;
 }
 /**************** Main Ended***************/

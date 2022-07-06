@@ -1,0 +1,64 @@
+body {
+  background: url("../../assets/destination/background-destination-desktop.jpg");
+  color: #fff;
+}
+
+.dcontainer {
+  max-width: 75%;
+  margin: 0 auto;
+}
+
+.content {
+  margin-top: 6rem;
+}
+
+.content h2 {
+  padding-left: 6rem;
+  text-transform: uppercase;
+}
+
+.content__container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10rem;
+  margin-top: 4rem;
+}
+
+.content-right ul {
+  display: flex;
+  gap: 2rem;
+}
+
+.content-right h1 {
+  font-size: 100px;
+  text-transform: uppercase;
+}
+
+.content-right li {
+  padding: 10px;
+}
+
+.content-main {
+  border-bottom: 0.5px solid rgb(83, 83, 83);
+  margin-bottom: 1rem;
+}
+
+.content-p {
+  margin: 1.2rem 0 3rem 0;
+  font-size: 1.2rem;
+  line-height: 1.8;
+}
+
+.content-summary {
+  display: flex;
+  gap: 5rem;
+}
+
+.summary h3 {
+  font-size: 0.9rem;
+  font-weight: 100;
+}
+
+.summary p {
+  font-size: 1.6rem;
+}
