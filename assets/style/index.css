@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Bellefair&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&display=swap");
+
+*,
+::after,
+::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+:root {
+  --primary-gray: #979797;
+  --secondary-white: #ffffff;
+  --primary-sky-blue: #d0d6f9;
+
+  --bellefair: "Bellefair", serif;
+  --barlow: "Barlow", sans-serif;
+  --barlow-condensed: "Barlow Condensed", sans-serif;
+}
+/************** Utitlities Classes *************/
+a {
+  text-decoration: none;
+}
+li {
+  list-style-type: none;
+}
+.flex-items {
+  display: flex;
+  align-items: center;
+}
+/************** Utitlities Classes Ended *************/
+body {
+  background-image: url("../home/background-home-desktop.jpg");
+  background-size: cover;
+}
+.container {
+  width: 100vw;
+  height: 100%;
+  max-width: 100%;
+  /* border: 1px solid; */
+}
+/**************** Nav ***************/
+nav {
+  justify-content: space-between;
+  margin-block-start: 30px;
+  padding-inline-start: 55px;
+}
+
+.nav-brand {
+  width: 48px;
+  height: 48px;
+}
+
+.nav-list {
+  background: rgba(255, 255, 255, 0.04);
+  backdrop-filter: blur(81.5485px);
+  padding: 30px 0px;
+  padding-left: 120px;
+  padding-right: 150px;
+}
+.nav-list .nav-item:not(:first-child) {
+  padding-inline-start: 40px;
+}
+.nav-list .nav-item a {
+  font-family: var(--barlow-condensed);
+  font-size: 1.6rem;
+  color: var(--primary-gray);
+}
+.nav-list .nav-item a span {
+  color: var(--secondary-white);
+}
+
+/**************** Nav Ended***************/
+/**************** Main ***************/
+main {
+  margin-block-start: 250px;
+}
+main section {
+  width: 1150px;
+  margin: 0 auto;
+ justify-content: space-between;
+}
+.main-content {
+    width: 500px;
+    font-weight: 400;
+}
+.main-content h2 {
+  font-family: var(--barlow-condensed);
+  color: var(--primary-sky-blue);
+  font-size: 28px;
+  font-weight: 400;
+  letter-spacing: 4.72px;
+}
+.main-content h1 {
+    font-family: var(--barlow);
+    color: var(--secondary-white);
+    font-weight: 400;
+    font-size: 150px;
+}
+.main-content p {
+    font-family: var(--barlow);
+    color: var(--primary-sky-blue);
+ 
+    font-size: 1.2rem;
+    line-height: 32px;
+}
+
+.main-explore{
+    border: 1px solid wheat;
+    width: 274px;
+    height: 274px;
+    border-radius: 500px;
+    justify-content: center;
+    background-color: var(--secondary-white);
+}
+.main-explore a{
+font-family: var(--bellefair);
+font-weight: 400;
+font-size: 32px;
+letter-spacing: 2px;
+color: #0B0D17;
+text-transform: uppercase;
+}
+/**************** Main Ended***************/
